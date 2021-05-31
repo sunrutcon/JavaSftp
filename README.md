@@ -17,7 +17,6 @@ Command line sftp application in Java. Made to transfer files from and to other 
 
 ## Usage
 
-'''
 usage: SFTP Manager 1.6 (added proxy)
  -a,--args                   Lsit args.
  -b,--put                    Put file.
@@ -39,4 +38,3 @@ usage: SFTP Manager 1.6 (added proxy)
  -x,--proxyHost <arg>        Proxy host.
  -y,--proxyPort <arg>        Proxy port.
  -z,--proxyType <arg>        Proxy type. (ie. sockks5)
-'''
