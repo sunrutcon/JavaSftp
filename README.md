@@ -17,6 +17,10 @@ Command line sftp application in Java. Made to transfer files from and to other 
 
 ## Usage
 ```bash
+# you can get a list of arguments by just calling the app from command line without arguments
+
+$> java -jar JavaSftp.jar
+
 usage: SFTP Manager 1.6 (added proxy)
  -a,--args                   Lsit args.
  -b,--put                    Put file.
@@ -39,4 +43,15 @@ usage: SFTP Manager 1.6 (added proxy)
  -y,--proxyPort <arg>        Proxy port.
  -z,--proxyType <arg>        Proxy type. (ie. sockks5)
 ```
- 
+
+## Examples
+
+```bash
+# test connection
+$> java -jar JavaSftp.jar  \
+  --test                   \
+  --host      host_ip      \
+  --port      22           \
+  --user      usr_name     \
+  --password  pass_word
+```
