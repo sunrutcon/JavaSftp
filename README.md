@@ -38,3 +38,5 @@ usage: SFTP Manager 1.6 (added proxy)
  -x,--proxyHost <arg>        Proxy host.
  -y,--proxyPort <arg>        Proxy port.
  -z,--proxyType <arg>        Proxy type. (ie. sockks5)
+ 
+ 
