@@ -46,6 +46,8 @@ usage: SFTP Manager 1.6 (added proxy)
 
 ## Examples
 
+### Test commection
+
 ```bash
 # test connection
 $> java -jar JavaSftp.jar  \
@@ -54,4 +56,20 @@ $> java -jar JavaSftp.jar  \
   --port      22           \
   --user      usr_name     \
   --password  pass_word
+```
+
+### Get file
+
+Example to get file using authentication with username and private key file
+
+```bash
+$> java -jar JavaSftp.jar                \
+  --get                                  \
+  --host host_ip                         \
+  --port 22                              \
+  --user user_name                       \
+  --privateKeyFile /home/private_key.pk  \
+  --dir "remote/direcotry"               \
+  --src "SomeData.csv"                   \
+  --trg --trg /home/user/sftp/download/
 ```
