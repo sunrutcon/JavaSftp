@@ -73,3 +73,15 @@ $> java -jar JavaSftp.jar                \
   --src "SomeData.csv"                   \
   --trg --trg /home/user/sftp/download/
 ```
+### Remove file
+
+```bash
+$> java -jar JavaSftp.jar     \
+  --remove                    \
+  --host     remote_ip        \
+  --port     22               \
+  --user     "some_user"      \
+  --password "user_password"  \
+  --dir      "test"           \
+  --src      "file001.txt"
+```
