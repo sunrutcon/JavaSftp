@@ -1,11 +1,11 @@
 # JavaSftp
 Command line sftp application in Java. Made to transfer files from and to other servers. 
 
-Supported authentications
+## Supported authentications
 - username/password
 - username/private_key
 
-Features
+## Features
 - test connection
 - list directory (optionaly csv output)
 - get file
